@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@0;1&family=Instrument+Serif&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-default:
+    Instrument Serif, -apple-system, ui-sans-serif, system-ui,
+    BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans,
+    sans-serif, Noto Color Emoji, Apple Color Emoji, Segoe UI Emoji,
+    Segoe UI Symbol;
+  --font-monospace: Fragment Mono, monospace;
+}
+
+@layer base {
+  *,
+  ::after,
+  ::before {
+    font-family: var(--font-default);
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ::-webkit-scrollbar,
+  ::-webkit-scrollbar-thumb {
+    width: 0;
+    background-color: transparent;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    overflow-y: auto;
+  }
+
+  img {
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+  }
+
+  button {
+    display: block;
+    cursor: pointer;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    cursor: pointer;
+  }
+}
+
+@layer components {
+  .title {
+    font-size: 110px;
+    letter-spacing: -3px;
+    line-height: 95%;
+  }
+
+  .paragraph {
+    font-size: 24px;
+    letter-spacing: -0.3px;
+    line-height: 95%;
+  }
+}

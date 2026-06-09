@@ -1,0 +1,12 @@
+{
+  "language": "Français",
+  "meta": {
+    "title": "Le Portefeuille de {name}"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos de moi",
+    "projects": "Projets personnels",
+    "contact": "Contactez-moi"
+  }
+}

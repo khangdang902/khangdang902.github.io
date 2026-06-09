@@ -1,0 +1,24 @@
+{
+  "home": {
+    "quote": {
+      "failed_to_fetch": "Failed to fetch quotes",
+      "refresh_quote": "Refresh quote"
+    },
+    "creative_expands": "creative<br/>expands"
+  },
+  "about": {
+    "what_am_i": "What am I?",
+    "description": "A not well known {age}-year-old boy whose curiosity and creativity in design and programming is endless. At the end of the day, he always proud for being a best version of himself today and will continue to move ahead tomorrow."
+  },
+  "projects": {
+    "personal_projects": "Personal projects",
+    "have_a_look": "Howdy adventurer! Have a great time exploring our amazing projects here.",
+    "repository": {
+      "null_description": "No description for this repository."
+    }
+  },
+  "contact": {
+    "contact_me": "Contact me",
+    "improvement": "Got improvement ideas? You can <a href=\"https://github.com/{username}/{username}.github.io\">contribute</a> to this webpage."
+  }
+}

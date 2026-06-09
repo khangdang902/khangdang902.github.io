@@ -1,0 +1,25 @@
+{
+  "home": {
+    "quote": {
+      "unknown_author": "Inconnu",
+      "failed_to_fetch": "Échec de la récupération des citations",
+      "refresh_quote": "Actualiser la citation"
+    },
+    "creative_expands": "la<br/>créativité s'étend"
+  },
+  "about": {
+    "what_am_i": "Que suis-je ?",
+    "description": "Un jeune garçon de {age} ans peu connu, dont la curiosité et la créativité en matière de design et de programmation sont infinies. Au final, il est toujours fier d'être la meilleure version de lui-même aujourd'hui et continuera à progresser demain."
+  },
+  "projects": {
+    "personal_projects": "Projets personnels",
+    "have_a_look": "Bonjour aventurier ! Amusez-vous bien en découvrant nos incroyables projets.",
+    "repository": {
+      "null_description": "Aucune description pour ce dépôt."
+    }
+  },
+  "contact": {
+    "contact_me": "Contactez-moi",
+    "improvement": "Vous avez des idées d'amélioration ? Vous pouvez <a href=\"https://github.com/{username}/{username}.github.io\">contribuer</a> à cette page web."
+  }
+}

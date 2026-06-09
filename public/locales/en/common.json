@@ -1,0 +1,12 @@
+{
+  "language": "English",
+  "meta": {
+    "title": "{name}'s Portfolio"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About me",
+    "projects": "Personal projects",
+    "contact": "Contact me"
+  }
+}
